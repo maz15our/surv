@@ -1,0 +1,35 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#simulation-container {
+    position: relative;
+}
+
+#simulation-canvas {
+    border: 2px solid #000;
+    background-color: #fff;
+}
+
+#controls {
+    margin-top: 10px;
+    text-align: center;
+}
+
+button {
+    margin: 0 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+#round-display {
+    margin-top: 10px;
+    font-weight: bold;
+}
